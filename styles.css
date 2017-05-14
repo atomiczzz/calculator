@@ -46,24 +46,42 @@ body {
     background-color: whitesmoke;
 }
 
-.calculator_key {
+.calc_button {
     width: 41px;
     height: 35px;
     cursor: pointer;
-    border: none;
+    border: none;ß
     transition: all .2s;
     text-transform: uppercase;
+    background-color: teal;
 }
+.op_button {
+    width: 41px;
+    height: 35px;
+    cursor: pointer;
+    border: none;ß
+    transition: all .2s;
+    text-transform: uppercase;
+    background-color: teal;
 
 .equal {
     width: 98px;
 }
 
-.calculator_key:hover {
+.calc_button:hover {
     background-color: yellow;
     font-weight: 700;
 }
 
-.calculator_key::-moz-focus-inner {
+.calc_button::-moz-focus-inner {
+    border: none;
+}
+
+.op_button:hover {
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.op_button::-moz-focus-inner {
     border: none;
 }
